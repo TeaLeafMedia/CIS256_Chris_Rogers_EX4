@@ -25,7 +25,7 @@ def play_game():
     guessed = []
     attempts = 6
 
-    print("Wanna play Hangmam?")
+    print("Wanna play Hangman?")
 
     while attempts > 0:
         # Show current progress
