@@ -5,6 +5,9 @@
 # import the random module for word selection
 import random
 
+# Predefined list of words (moved this out of function to test)
+words = ["cheese", "basil", "tomato", "pasta"]
+
 # This sets up word display to either show a correctly guessed letter
 # or an underscore to show remaining unknown letters.
 def get_word(word, letters):
@@ -18,8 +21,6 @@ def get_word(word, letters):
 
 # Main game loop
 def play_game():
-    # Predefined list of words
-    words = ["cheese", "basil", "tomato", "pasta"]
     
     # Select a random word
     secret = random.choice(words)
