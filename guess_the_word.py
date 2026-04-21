@@ -5,6 +5,8 @@
 # import the random module for word selection
 import random
 
+# This sets up word display to either show a correctly guessed letter
+# or an underscore to show remaining unknown letters.
 def get_word(word, letters):
     display = ""
     for letter in word:
